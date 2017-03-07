@@ -31,7 +31,7 @@ const HomePage = (props) => {
           <span>Front End Engineering Intern</span> at <span><a href="https://higherme.com">HigherMe</a></span>
         </p>
         <p>
-          <span>Software Engineering Intern</span> at <span><a href="https://rakuten.com">Rakuten USA</a></span>
+          <span>Software Engineering Intern</span> at <span><a href="http://global.rakuten.com/en/">Rakuten USA</a></span>
         </p>
       </section>
       <section className="icons">
