@@ -4,7 +4,8 @@
   "description": "Tyler Bainbridge's portfolio",
   "main": "index.js",
   "scripts": {
-    "start": "node server"
+    "start": "node server",
+    "dev": "webpack-dev-server"
   },
   "author": "Tyler Bainbridge",
   "license": "ISC",

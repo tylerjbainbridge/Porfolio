@@ -13,6 +13,6 @@ const render = () => {
 
 render();
 
-// if (module.hot) {
-//     module.hot.accept('./components/ProfileRouter', render);
-// }
+if (module.hot) {
+    module.hot.accept('./components/ProfileRouter', render);
+}

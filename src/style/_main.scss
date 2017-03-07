@@ -1,0 +1,56 @@
+a:hover {
+  color: indianred;
+}
+
+a {
+  color: white;
+}
+
+article.container {
+  width: 60vw;
+  section.content {
+    padding: 10px;
+    color: black;
+    h1 {
+      font-family: 'Libre Baskerville', serif;
+      font-style: italic;
+      color: indianred;
+      font-size: 22px;
+      margin: 0px;
+    }
+    p {
+      font-family: 'Libre Baskerville', serif;
+      color: gray;
+      font-size: 34px;
+      span {
+        color: white;
+      }
+    }
+  }
+
+  section.icons {
+    display: flex;
+    justify-content: center;
+    .icon {
+      margin: 10px;
+      a {
+        font-size: 40px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  article.container {
+    width: 100vw;
+    section {
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 48px;
+      }
+    }
+  }
+}
