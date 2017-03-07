@@ -2,7 +2,6 @@ import React, { PropTypes } from 'react';
 // import NavBar from './NavBar';
 
 const AppContainer = (props) => {
-    console.log(props);
     return (
         <article className="app-container">
             {/*<section className="nav">
