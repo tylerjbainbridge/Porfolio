@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Playfair+Display:700');
+@import 'about';
+@import 'app';
+
+//@media screen
+//and (min-device-width: 1200px)
+//and (max-device-width: 1600px)
+//and (-webkit-min-device-pixel-ratio: 1) {
+//  .nav-container {
+//    width: 400px;
+//    background-color: black;
+//  }
+//}
+
+
+//section {
+//  display: flex;
+//  //justify-content: space-around;
+//  background-color: aqua;
+//  width: 740px;
+//  margin: 0 auto;
+//}
+//
+//.column {
+//  background-color: blueviolet;
+//  color: azure;
+//  margin: 10px;
+//  flex-grow: 1;
+//  flex-shrink: 1;
+//  flex-basis: 0px;
+//}
+//
+//section:first-of-type .column:first-of-type {
+//  flex-grow: 2;
+//  flex-shrink: 2;
+//  flex-basis: 22px;
+//}
+
+/**
+
+  LAYOUT HORIZONTALLY AND VERTICALLY
+  flex-wrap: wrap or wrap reverse, defaults to nowrap
+  flex-direction: row, row reverse, column, column reverse
+    - column: stacks vertically in container
+
+    html, body, main {
+      height: 100%;
+    }
+
+    body: {
+      display: flex
+      flex-direction: column
+    }
+
+    DISTRIBUTE SPACE HORIZONTALLY AND VERTICALLY USING FLEX LINES
+      - flex items are distributed along axes
+      - the main axis is determined by the flex direction
+
+      justify content is used to distribute space on the main axis
+        -accepts: flex-start (aligned to the left), flex-end (aligned to the right), center, space-between, space-around
+
+      nav {
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      can also be used to distribute space between elements
+        - space-between is flush to both edges (left and right) and has space in between elements
+        - space-around adds equal space around elements
+        - center centers with the center of the container(middle element)
+
+      order is used to change the order of flex items
+
+       DISTRIBUTING SPACE ON THE CROSS AXIS
+       -distributing space on the cross axis
+       -cross axis (horizontal for columns and vertical for rows) is perpendicular to the main axis (vertical)
+       -align-items is used to distribute space on the cross axis
+       align-items accepts stretch(default) flex-start (align to top (row)), flex-end, center, baseline (middle row)
+
+
+      FLEX SIZE
+
+      flex-grow: used to specifiy the ration of the space an item should fill in the main axis.
+      default: 0 accepts numbers. 0 means DONT GROW
+      1 means take up all the availible space (all of the space needed for this flex container minus the size of the
+      other flex items)
+
+      multiple items (same parent) using 1 for flex-grow will take up even amounts of space.
+
+      shrink property: used to specify the shrink factor of a flex item. it accepts numbers
+      default 1
+      0: doest not reduce in width
+
+
+      SETTING WIDTHS
+      consistent widths:
+      flex-basis is used to specify the initial size of a flex item.
+      defaults to auto
+      parent container: 'clue'
+      children clue-img, clue-info
+
+      .clue { flex-basis: 45.7 % }
+      .clue-img { flex-basic: 140px }
+      justify-content: space-between
+
+      FLEX SHORTHAND:
+      .flex {
+         flex: 0 1 auto
+         // grow shrink basis
+      }
+
+      .flex {
+        flex-flow: row nowrap
+        // direction wrap
+      }
+ **/
