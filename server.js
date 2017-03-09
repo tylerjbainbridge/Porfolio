@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, './dist')));
 app.get('/*', (req, res) => {
   return res.sendFile('index.html');
 });
-
+  
 app.listen(port, () => {
   console.log('listening on port 3000');
 });
