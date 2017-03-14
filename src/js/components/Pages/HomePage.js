@@ -24,6 +24,9 @@ const HomePage = (props) => {
         <p>
           <span>President</span> of the <span><a href="https://github.com/UML-WebDev">Web Development Club</a></span>
         </p>
+        <p>
+          <span>Computer Science Major</span> at the <span><a href="https://www.uml.edu/">University of Massachusetts Lowell</a></span>
+        </p>
         <h1>
           Previously -
         </h1>
